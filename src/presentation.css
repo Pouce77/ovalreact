@@ -1,0 +1,15 @@
+.presentation{
+  width:75%;
+  margin: auto;
+}
+.imagePresent{
+  width:auto;
+  height :300px;
+  margin-bottom: 20px;
+}
+.link{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-family: 'Comforter';
+}

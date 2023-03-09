@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <div>
       <img src={title} alt="Titre" className='title'/>
-      <div className="container">
+      <div className="d-flex flexDirection justify-content-between align-items-center mt-5 p-5">
         <Menu/>
-        <img src={img} alt="logo" />
+        <img className="logoImg" src={img} alt="logo" />
       </div>  
     </div>
   )

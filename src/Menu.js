@@ -1,22 +1,26 @@
 import React from 'react'
 import './Menu.css'
+import {Link} from 'react-router-dom'
 
 const Menu = () => {
   return (
-    <div>
-      <nav className="navBar w-25 mt-3">
+    <div className="marge">
+      <nav className="">
        <ul class="p-0">
-           <li className="textNav m-4">
-               <a href="">Présentation</a>
+           <li className="textNav m-2">
+               <Link to="/presentation">Présentation</Link>
            </li>
-           <li className="textNav m-4">
-               <a href="">Album</a>
+           <li className="textNav m-2">
+               <Link to="/Albums">Albums</Link>
            </li>
-           <li className="textNav m-4">
-               <a href="">Actualités</a>
+           <li className="textNav m-2">
+               <Link to="/">Actualités</Link>
            </li>
-           <li className="textNav m-4">
-               <a href="">Contact</a>
+           <li className="textNav m-2">
+               <Link to="/galerie">Galerie</Link>
+           </li>
+           <li className="textNav m-2">
+               <Link to="/">Contact</Link>
            </li>
        </ul>
     </nav>

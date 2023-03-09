@@ -1,0 +1,25 @@
+.titre{
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2f2d2d ;
+  margin:5px;
+  border-radius: 5px;
+}
+.listeTitre{
+  margin: auto;
+  width:75%;
+}
+p{
+  margin: 2px;
+}
+h3{
+  margin: 10px;
+  margin-top : 50px
+}
+.link{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-family: 'Comforter';
+}

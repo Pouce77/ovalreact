@@ -1,0 +1,94 @@
+@font-face {
+	font-family:'Comforter';
+	src: url('fonts/Comforter-Regular.ttf');
+}
+.album{
+  display:flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  width:100%;
+  padding-bottom: 100px;
+  padding-top :20px;
+  border-bottom: 1px solid white;
+}
+h3,h2{
+  font-family: 'Comforter';
+  margin: 0;
+}
+
+h1{
+  font-family: 'Comforter';
+  margin-left: 50px;
+}
+.ecouter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+.divImage{
+  height:40%;
+}
+.image{
+  height: 200px;
+  border-radius: 40px;
+  padding: 30px;
+}
+.divTitle{
+  padding: 30px;
+  width: 50%
+}
+.description{
+  padding: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width:60%;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 40%;
+  font-size: medium;
+}
+.link{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-family: 'Comforter';
+}
+.flexDir{
+  flex-direction: column;
+}  
+.widthImage{
+  width: 60%;
+}  
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	.flexDir{
+    flex-direction: column;
+  }
+  .widthImage{
+    width: 60%;
+  }  
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.flexDir{
+    flex-direction: row;
+  }
+  .widthImage{
+    width: 33%;
+  }  
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+  .flexDir{
+    flex-direction: row;
+  }
+  .widthImage{
+    width: 33%;
+  }  
+ }

@@ -23,11 +23,17 @@ a:hover{
 .flexDirection{
   flex-direction: column-reverse;
 }
+.marge{
+  margin-left: 0;
+}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
 	.flexDirection{
     flex-direction: column-reverse;
+  }
+  .marge{
+    margin-left: 0;
   }
 }
 
@@ -36,12 +42,18 @@ a:hover{
 	.flexDirection{
     flex-direction: column-reverse;
   }
+  .marge{
+    margin-left: 0;
+  }
  }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
 	.flexDirection{
     flex-direction: row;
+  }
+  .marge{
+    margin-left: 70px;
   }
 }
   

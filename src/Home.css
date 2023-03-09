@@ -1,14 +1,36 @@
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 100vw;
-}
 .title{
   position:absolute;
   top:20px;
   left:10%;
   margin: 10px;
   z-index:100;
+  width:250px;
+}
+.logoImg{
+  width: 100%;
+  height:auto;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	.logoImg{
+    width: 100%;
+    height:auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.logoImg{
+    width: 100%;
+    height:auto;
+  }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	.logoImg{
+    width: auto;
+    height:100%;
+  }
 }
