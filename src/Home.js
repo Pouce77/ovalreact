@@ -3,6 +3,8 @@ import img from './images/logoOvalskylight.png';
 import title from './images/titleOvalskylight.png';
 import Menu from './Menu';
 import './Home.css'
+import Footer from './Footer';
+import  Modal from './Modal';
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
         <Menu/>
         <img className="logoImg" src={img} alt="logo" />
       </div>  
+      <Modal/>
+      <Footer/>
     </div>
   )
 }

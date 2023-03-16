@@ -5,6 +5,7 @@
   background-color: #2f2d2d ;
   margin:5px;
   border-radius: 5px;
+  border-bottom: 1px solid white;
 }
 .listeTitre{
   margin: auto;
@@ -13,8 +14,8 @@
 p{
   margin: 2px;
 }
-h3{
-  margin: 10px;
+.albumTitle{
+  margin: 20px;
   margin-top : 50px
 }
 .link{

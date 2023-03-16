@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Galerie.css'
 
 const Galerie = () => {
@@ -20,6 +21,12 @@ const Galerie = () => {
 
 return (
   <>
+  <nav className='ariane' aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><Link to="/">Accueil</Link></li>
+    <li class="breadcrumb-item active" aria-current="page">Galerie</li>
+  </ol>
+  </nav>
   <h1>Galerie</h1>
   <div className='row'>
     <div className='row-col-5'>

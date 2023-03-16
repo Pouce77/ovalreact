@@ -14,13 +14,13 @@ const Menu = () => {
                <Link to="/Albums">Albums</Link>
            </li>
            <li className="textNav m-2">
-               <Link to="/">Actualités</Link>
+               <Link to="/actualites">Actualités</Link>
            </li>
            <li className="textNav m-2">
                <Link to="/galerie">Galerie</Link>
            </li>
            <li className="textNav m-2">
-               <Link to="/">Contact</Link>
+               <Link to="/contact">Contact</Link>
            </li>
        </ul>
     </nav>

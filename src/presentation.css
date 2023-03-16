@@ -4,7 +4,7 @@
 }
 .imagePresent{
   width:auto;
-  height :300px;
+  height :200px;
   margin-bottom: 20px;
 }
 .link{
@@ -12,4 +12,11 @@
   top: 20px;
   left: 20px;
   font-family: 'Comforter';
+}
+.textPresentation{
+  font-family:'Courier New', Courier, monospace ;
+}
+.portrait{
+  width:100px;
+  height: 100px;
 }

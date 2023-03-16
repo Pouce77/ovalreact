@@ -6,7 +6,12 @@ import { Link } from 'react-router-dom';
 const Albums = () => {
   return (
     <>
-    <Link to="/" className='link'>Accueil</Link>
+    <nav className='ariane' aria-label="breadcrumb">
+      <ol class="breadcrumb">
+      <li class="breadcrumb-item"><Link to="/">Accueil</Link></li>
+      <li class="breadcrumb-item active" aria-current="page">Albums</li>
+      </ol>
+    </nav>
     <div className="album flexDir">
       <div className='divImage widthImage'>
         <img className='image' src={imgAlbum} alt="album n°1"></img>
@@ -20,7 +25,7 @@ const Albums = () => {
             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
           </svg>
           </Link>
-          <h3>Ecoutez l'album</h3>
+          <h3 className='titleAlbum'>Ecoutez l'album</h3>
         </div>
       </div>
       <div className='description'>
@@ -28,7 +33,7 @@ const Albums = () => {
       </div>
     </div>
     <div className='album flexDir'>
-      <h1>A venir...</h1>
+      <h1 className='margH1'>A venir...</h1>
     </div>
     </>
   )

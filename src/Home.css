@@ -34,3 +34,24 @@
     height:100%;
   }
 }
+.modalHome{
+  position: absolute;
+  top:5%;
+  left:25%;
+  margin:auto;
+  width:50%;
+  z-index: 1000;
+  background-color: #2f2f2f;
+  border: 1px solid azure;
+  border-radius: 5px;
+  padding: 20px;
+}
+.cross{
+  float: right;
+}
+.cross:hover{
+  color: black;
+}
+.imgModal{
+  height:90vh;
+}
