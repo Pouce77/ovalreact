@@ -29,7 +29,7 @@ const Albums = () => {
         </div>
       </div>
       <div className='description'>
-        <p> <small> Description de l'album qui est vraiment un bel album avec de belles chansons et une belle pochette ! En plus il y a beaucoup de chansons au piano, à la guitare et à la basse . C'est chouette ! Ecoutez vite !</small></p>
+        <p> <small> "Entre jazz, rock et ambient, le premier album d'Oval Skylight propose des compositions mélancoliques, rêveuses, oniriques."</small></p>
       </div>
     </div>
     <div className='album flexDir'>

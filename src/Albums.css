@@ -60,6 +60,7 @@ h1{
   border-radius: 5px;
   height: 40%;
   font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
 }
 .link{
   position: absolute;

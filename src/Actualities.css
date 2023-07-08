@@ -1,5 +1,6 @@
 .imgActu{
-  height:90vh;
+  height:60vh;
+  max-width: 100%;
 }
 .fonttitre{
   font-family: 'Courier New', Courier, monospace;

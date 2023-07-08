@@ -16,23 +16,21 @@ import { ModalProvider } from './Context/contextModal.js';
 function App() {
   return (
     <ModalProvider>
-    <Router>
-    <div className="App">
-     
-      <header className="App-header">
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/albums" element={<Albums/>}/>
-          <Route path="/ovalskylight1" element={<Album1/>}/>
-          <Route path="/galerie" element={<Galerie/>}/>
-          <Route path="/presentation" element={<Presentation/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/actualites" element={<Actualities/>}/>
-        </Routes>
-      </header>
-      
-    </div>
-    </Router>
+      <Router>
+        <div className="App">
+          <header className="App-header">
+            <Routes>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/albums" element={<Albums/>}/>
+              <Route path="/ovalskylight1" element={<Album1/>}/>
+              <Route path="/galerie" element={<Galerie/>}/>
+              <Route path="/presentation" element={<Presentation/>}/>
+              <Route path="/contact" element={<Contact/>}/>
+              <Route path="/actualites" element={<Actualities/>}/>
+           </Routes>
+          </header>
+        </div>
+      </Router>
     </ModalProvider>
   );
 }

@@ -16,7 +16,8 @@ p{
 }
 .albumTitle{
   margin: 20px;
-  margin-top : 50px
+  margin-top : 50px;
+  font-family: 'Courier New', Courier, monospace;
 }
 .link{
   position: absolute;
