@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Actualities.css'
+import Actuality from './Actuality'
 
 const Actualities = () => {
   return (
@@ -12,12 +13,16 @@ const Actualities = () => {
         </ol>
       </nav>
       <div>
-        <h1>
+        <h1 className='mb-5'>
           Actualités
         </h1>
-        <div className='d-flex justify-content-center'>
-          <img className='m-2 imgActu' src='/images/ConcertImprimerie.jpg'></img>
+        <div className='d-flex justify-content-center flex-column'>
+          <p className="fonttitre mb-3">Concert du 6 juillet 2023 à Chailly en Bière</p>
+          <img className='m-auto imgActu' src='/images/actuality/actu4.jpg' alt="Actualité principale"></img>
         </div>
+        <Actuality title="Concert du 11 juin 2023 à Chailly en Bière" src='/images/actuality/actu3.jpg'/>
+        <Actuality title="Festival Cultures en jardins à Valence en Brie" src='/images/actuality/actu2.jpg'/>
+        <Actuality title="Concert à l'Imprimerie du 18 mars 2023" src='/images/actuality/ConcertImprimerie.jpg'/>
       </div>
     </>
   )

@@ -1,4 +1,3 @@
-import React from 'react'
 import img from './images/logoOvalskylight.png';
 import title from './images/titleOvalskylight.png';
 import Menu from './Menu';
@@ -7,6 +6,7 @@ import Footer from './Footer';
 import  Modal from './Modal';
 
 const Home = () => {
+  
   return (
     <div>
       <img src={title} alt="Titre" className='title'/>

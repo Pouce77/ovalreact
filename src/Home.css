@@ -10,12 +10,28 @@
   width: 100%;
   height:auto;
 }
+.modalWidth{
+  width:90%;
+    top:5%;
+    left:5%;
+}
+.imgModal{
+  max-width: 90%;
+}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
 	.logoImg{
     width: 100%;
     height:auto;
+  }
+  .modalWidth{
+    width:90%;
+    top:5%;
+    left:5%;
+  }
+  .imgModal{
+    max-width: 90%;
   }
 }
 
@@ -25,6 +41,14 @@
     width: 100%;
     height:auto;
   }
+  .modalWidth{
+    width:90%;
+    top:5%;
+    left:5%;
+  }
+  .imgModal{
+    max-width: 90%;
+  }
  }
 
 /* Large devices (desktops, 992px and up)*/
@@ -33,18 +57,24 @@
     width: auto;
     height:100%;
   }
+  .modalWidth{
+    width:50%;
+    top:5%;
+    left:25%;
+  }
+  .imgModal{
+    max-height: 80vh;
+  }
 }
 .modalHome{
   position: absolute;
-  top:5%;
-  left:25%;
   margin:auto;
-  width:50%;
   z-index: 1000;
   background-color: #2f2f2f;
   border: 1px solid azure;
   border-radius: 5px;
   padding: 20px;
+  height:max-content;
 }
 .cross{
   float: right;
@@ -52,6 +82,10 @@
 .cross:hover{
   color: black;
 }
-.imgModal{
-  height:90vh;
+@keyframes growth{
+  from{transform: scale(0);}
+  to{transform:scale(1)}
+}
+.anim{
+  animation: growth 0.5s ease-in;
 }

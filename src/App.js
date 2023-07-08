@@ -11,12 +11,14 @@ import Galerie from './Galerie';
 import Presentation from './Presentation';
 import Contact from './Contact';
 import Actualities from './Actualities';
-
+import { ModalProvider } from './Context/contextModal.js';
 
 function App() {
   return (
+    <ModalProvider>
     <Router>
     <div className="App">
+     
       <header className="App-header">
         <Routes>
           <Route path="/" element={<Home/>}/>
@@ -28,8 +30,10 @@ function App() {
           <Route path="/actualites" element={<Actualities/>}/>
         </Routes>
       </header>
+      
     </div>
     </Router>
+    </ModalProvider>
   );
 }
 

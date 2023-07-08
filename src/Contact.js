@@ -12,6 +12,8 @@ const senEmail = (e) => {
     emailjs.sendForm('service_ymgnyqn', 'template_6emcb0f', form.current, '2VmDarl2_hzA1jzLE')
       .then((result) => {
           console.log(result.text);
+          const text=document.getElementById('success');
+          text.style.display='block';
       }, (error) => {
           console.log(error.text);
       });
@@ -43,6 +45,7 @@ const senEmail = (e) => {
         <button class="btn btn-dark" type = "submit">Envoyer</button>
       </div>
     </form>
+    <div id="success" class="m-2 ms-3 text-center disp">Votre message a été envoyé !</div>
     <div className='m-2 ms-3 text-center'>
       <a href='https://www.facebook.com/Oval.Skylight/' target='_blank' rel="noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-facebook m-2" viewBox="0 0 16 16">
