@@ -42,3 +42,6 @@
   --bs-breadcrumb-divider: '>';
   margin-top:0;
 }
+.fonttitre{
+  font-family: 'Courier New', Courier, monospace;
+}

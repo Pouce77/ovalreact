@@ -26,12 +26,32 @@ const Galerie = () => {
     'imprimerie9.jpg',
     'imprimerie10.jpg',
   ]
+  const concert=[
+    'WA0002.jpg',
+    'WA0003.jpg',
+    'WA0004.jpg',
+    'WA0005.jpg',
+    'WA0006.jpg',
+    'WA0007.jpg',
+    'WA0008.jpg',
+    'WA0009.jpg',
+    'WA0010.jpg',
+    'WA0011.jpg',
+    'WA0012.jpg',
+    'WA0013.jpg',
+    'WA0014.jpg',
+    'WA0015.jpg',
+    'WA0016.jpg'
+  ]
 
   const image=galerie.map(imageTab => '/images/galerie/'+imageTab)
   const tableauImage=image.map(img => <img src={img} alt={img} className="imageGalerie m-3"></img>)
 
   const imprim=imprimerie.map(imgimp => '/images/galerie/'+imgimp)
   const tabImprim=imprim.map(img=> <img src={img} alt={img} className="imageGalerie m-3"></img>)
+
+  const conc=concert.map(imgcon => '/images/galerie/'+imgcon)
+  const tabConc=conc.map(img=> <img src={img} alt={img} className="imageGalerie m-3"></img>)
 
 return (
   <>
@@ -51,6 +71,12 @@ return (
   <div className='row'>
     <div className='row-col-5'>
       {tabImprim}
+    </div>
+  </div>
+  <p>En concert...</p>
+  <div className='row'>
+    <div className='row-col-5'>
+      {tabConc}
     </div>
   </div>
   </>
