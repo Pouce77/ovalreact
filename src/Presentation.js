@@ -19,19 +19,19 @@ const Presentation = () => {
     <div className='d-flex flex-wrap grey mt-5 p-4 rounded'>
         <div className='m-auto'>
           <img src='/images/arnaud.png' alt ='Arnaud' className='rounded-circle m-4 portrait'></img>
-          <p className='textPresentation fs-6'>Arnaud Pianiste</p>
+          <p className='textPresentation fs-6'>Arnaud Benoit Pianiste</p>
         </div>
         <div className='m-auto'>
           <img src='/images/anthony.png' alt ='Anthony' className='rounded-circle m-4 portrait'></img>
-          <p className='textPresentation fs-6'>Anthony Guitariste</p>
+          <p className='textPresentation fs-6'>Anthony Colas Guitariste</p>
         </div>
         <div className='m-auto'>
           <img src='/images/clement.png' alt ='Clément' className='rounded-circle m-4 portrait'></img>
-          <p className='textPresentation fs-6'>Clément Basse</p>
+          <p className='textPresentation fs-6'>Clément Leleu Basse</p>
         </div>
         <div className='m-auto'>
           <img src='/images/jeanfrancois.jpg' alt ='Jean-François' className='rounded-circle m-4 portrait'></img>
-          <p className='textPresentation fs-6'>Jean-François Saxophoniste</p>
+          <p className='textPresentation fs-6'>Jean-François PetitJean Saxophoniste</p>
         </div>
     </div>
     <Footer/>
