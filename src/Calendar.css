@@ -1,0 +1,11 @@
+@font-face {
+	font-family:'Comforter';
+	src: url('fonts/Comforter-Regular.ttf');
+}
+h1{
+    font-family: 'Comforter';
+}
+
+.fontCalendar{
+	font-family: 'Courier New', Courier, monospace;
+}

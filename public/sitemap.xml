@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://ovalskylight.fr/</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://ovalskylight.fr/actualites</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://ovalskylight.fr/Albums</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>annualy</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://ovalskylight.fr/presentation</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>annualy</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://ovalskylight.fr/galerie</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>annualy</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://ovalskylight.fr/contact</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>annualy</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Ajoutez d'autres URLs ici -->
+
+</urlset>

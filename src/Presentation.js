@@ -13,7 +13,7 @@ const Presentation = () => {
       </ol>
     </nav>
     <div className='presentation'>
-      <img src="/images/galerie/0060 IMG_0004.JPG" className='imagePresent' alt="illustration de présentation"></img>
+      <img src="/images/galerie/IMG-20240319-WA0000.jpg" className='imagePresent' alt="illustration de présentation"></img>
       <p className='textPresentation fs-6'>Inspiré par le jazz, le rock et les musiques minimalistes (Erik Satie, Ornette Coleman ou Franck Zappa sont des références permanentes...), le quartet Oval Skylight (Arnaud Benoit piano, Anthony Colas guitare, Clément Leleu basse, Jean-François Petitjean Saxophoniste) joue un répertoire de compositions originales ,aériennes, mélancoliques, rêveuses. La poésie représente aussi une source d'inspiration permanente des compositions de notre projet.</p>
     </div>
     <div className='d-flex flex-wrap grey mt-5 p-4 rounded'>

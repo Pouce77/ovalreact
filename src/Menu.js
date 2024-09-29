@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Menu = () => {
   return (
     <div className="marge">
-      <nav className="">
+      <nav>
        <ul class="p-0">
            <li className="textNav m-2">
                <Link to="/presentation">Présentation</Link>
@@ -18,6 +18,12 @@ const Menu = () => {
            </li>
            <li className="textNav m-2">
                <Link to="/galerie">Galerie</Link>
+           </li>
+           <li className="textNav m-2">
+               <Link to="/video">Vidéo</Link>
+           </li>
+           <li className="textNav m-2">
+               <Link to="/calendrier">Calendrier</Link>
            </li>
            <li className="textNav m-2">
                <Link to="/contact">Contact</Link>

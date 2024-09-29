@@ -11,6 +11,8 @@ import Galerie from './Galerie';
 import Presentation from './Presentation';
 import Contact from './Contact';
 import Actualities from './Actualities';
+import Calendar from './Calendar.js';
+import Videos from './Videos.js';
 import { ModalProvider } from './Context/contextModal.js';
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
               <Route path="/presentation" element={<Presentation/>}/>
               <Route path="/contact" element={<Contact/>}/>
               <Route path="/actualites" element={<Actualities/>}/>
+              <Route path="/calendrier" element={<Calendar/>}/>
+              <Route path="/video" element={<Videos/>}/>
            </Routes>
           </header>
         </div>
