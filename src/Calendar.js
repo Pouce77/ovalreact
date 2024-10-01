@@ -32,6 +32,7 @@ const Calendar = () => {
       <h1 className="mb-4">Calendrier</h1>
       <div className="col-lg-8 col-md-10 m-auto">
         {tabEvent.map((event)=><Event key={event['id']}title={event['title']} location={event['location']} previewDate={event['previewDate'] }/>)}
+        
       </div>
     </div>
   )
