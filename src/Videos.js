@@ -13,7 +13,7 @@ const Videos = () => {
         <div>
             <h1>Vidéo</h1>
             <video className="w-75 h-50" controls >
-                <source src="./images/video.mp4" type="video/mp4"/>
+                <source src="./images/ovalVideo.mp4" type="video/mp4"/>
             </video>
         </div>
     </div>
