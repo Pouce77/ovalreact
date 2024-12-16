@@ -1,0 +1,33 @@
+.modal-backdrop {
+    background-color: transparent !important;
+}
+.modal-content {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    position: relative;
+}
+.modal-header {
+    border-bottom: none;
+}
+.close {
+    position: absolute;
+    top: 5px;
+    right: 18px;
+    font-size: 3rem;
+    color: white;
+    background: none;
+    border: none;
+    z-index: 10;
+    cursor: pointer;
+}
+.close:hover {
+    color: #ccc;
+}
+.modal-body img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}

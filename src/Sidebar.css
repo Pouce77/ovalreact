@@ -1,0 +1,38 @@
+.sidebar {
+    padding: 20px;
+    background-color: black;
+    margin: auto;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar button {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease; /* Effet fluide */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+  }
+
+  button:active {
+    background-color: #888; /* Couleur grisée lors du clic */
+  }
+
+  
