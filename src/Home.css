@@ -24,6 +24,7 @@
 	.logoImg{
     width: 100%;
     height:auto;
+    margin-left: 40px;
   }
   .modalWidth{
     width:90%;
@@ -40,6 +41,7 @@
 	.logoImg{
     width: 100%;
     height:auto;
+    margin-left: 40px;
   }
   .modalWidth{
     width:90%;
@@ -56,6 +58,7 @@
 	.logoImg{
     width: auto;
     height:100%;
+    margin-left: 40px;
   }
   .modalWidth{
     width:50%;

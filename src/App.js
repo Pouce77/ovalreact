@@ -1,8 +1,8 @@
-import Albums from './Albums';
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import './App.css';
+import Albums from './Albums';
 import Home from './Home';
 import Album1 from './Album1';
 import { BrowserRouter as Router} from 'react-router-dom'; 

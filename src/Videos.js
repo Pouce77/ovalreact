@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Video.css'
 
 const Videos = () => {
   return (
@@ -11,10 +12,15 @@ const Videos = () => {
             </ol>
         </nav>
         <div>
-            <h1>Vidéo</h1>
-            <video className="w-75 h-50" controls >
+            <h1>Vidéos</h1>
+            <div className="container d-flex flex-column justify-content-center m-auto">
+            <video className="w-100 m-4" controls >
                 <source src="./images/ovalVideo.mp4" type="video/mp4"/>
             </video>
+            <video className="w-100 m-4" controls >
+                <source src="./images/video2.mp4" type="video/mp4"/>
+            </video>
+            </div>
         </div>
     </div>
   )
