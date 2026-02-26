@@ -11,7 +11,7 @@ const Sidebar = ({galleries, onSelectGallery}) => {
       </button>
 
       <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
+        <ul className="navbar-nav m-auto">
         {galleries.map((gallery,index) => (
           <li key={index} className="nav-item mx-2">
             <button onClick={()=> onSelectGallery(gallery)}>
