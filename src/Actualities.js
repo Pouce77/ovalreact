@@ -14,30 +14,27 @@ const Actualities = () => {
     setFilePath(url)
   }
 
-  useEffect(() => {
-   
-    fetch("https://api.ovalskylight.fr/api/actualities")
-  .then((res) => {
-   return res.json();
-  }) 
-  .then(function(data) {
+useEffect(() => {
+  const fetchAll = async (url, acc = []) => {
+  const res = await fetch(url);
+  const data = await res.json();
+  const items = [...acc, ...data['hydra:member']];
+  if (data['hydra:view']?.['hydra:next']) {
+    return fetchAll('https://api.ovalskylight.fr' + data['hydra:view']['hydra:next'], items);
+  }
+  return items
+};
 
-    console.log(data)
-    let array=data['hydra:member']
-    array.reverse()
-    console.log(array);    
-     
-      array.forEach(element => {
-        if(element['isPrincipal']) {
-          stateChange(element['title'],element['filePath'])
-        }else{
+  fetchAll("https://api.ovalskylight.fr/api/actualities").then(array => {
+    array.forEach(element => {
+      if (element['isPrincipal']) {
+        stateChange(element['title'], element['filePath']);
+      }else{
         setTabActu(array=>[...array, element])
-       
         }
-      });
-    
-  })},[]);
-
+    });
+  });
+}, []);
   return (
     <>
       <nav className='ariane' aria-label="breadcrumb">
@@ -55,7 +52,7 @@ const Actualities = () => {
           <img className='m-auto imgActu' src={'https://api.ovalskylight.fr/images/'+filePath} alt="Actualité principale"></img>
         </div>
       <div className='d-flex flex-wrap'>
-        {tabActu.map((actu)=><Actuality key={actu['id']} title={actu['title']} src={'https://api.ovalskylight.fr/images/'+actu['filePath']}/>)}
+        {tabActu.reverse().map((actu)=><Actuality key={actu['id']} title={actu['title']} src={'https://api.ovalskylight.fr/images/'+actu['filePath']}/>)}
       </div>
       </div>
     </>

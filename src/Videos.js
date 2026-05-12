@@ -20,6 +20,18 @@ const Videos = () => {
             <video className="w-100 m-4" controls >
                 <source src="./images/video2.mp4" type="video/mp4"/>
             </video>
+            <video className="w-100 m-4" controls >
+                <source src="./images/video2.mp4" type="video/mp4"/>
+            </video>
+            <video className="w-100 m-4" controls >
+                <source src="./images/video3.mp4" type="video/mp4"/>
+            </video>
+            <video className="w-100 m-4" controls >
+                <source src="./images/video4.mp4" type="video/mp4"/>
+            </video>
+            <video className="w-100 m-4" controls >
+                <source src="./images/video5.mp4" type="video/mp4"/>
+            </video>
             </div>
         </div>
     </div>

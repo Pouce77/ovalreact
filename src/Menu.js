@@ -31,7 +31,7 @@ const Menu = () => {
                <Link to="/galerie">Galerie</Link>
            </li>
            <li className="textNav m-2">
-               <Link to="/video">Vidéo</Link>
+               <Link to="/video">Vidéos</Link>
            </li>
            <li className="textNav m-2">
                <Link to="/calendrier">Calendrier</Link>
